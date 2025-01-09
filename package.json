@@ -1,0 +1,31 @@
+{
+  "name": "express-codegen",
+  "version": "0.0.1",
+  "description": "Express command line interface with express-codegen tool",
+  "type": "module",
+  "main": "bin/program.js",
+  "bin": {
+    "express-codegen": "./bin/program.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pushpendra Kumar",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "fs-extra": "^11.2.0",
+    "inquirer": "^12.2.0",
+    "prettier": "^3.4.2"
+  },
+  "keywords": [
+    "express",
+    "cli",
+    "command-line",
+    "tool",
+    "express-cli",
+    "express-codegen",
+    "express-codegen-cli",
+    "express code generator"
+  ]
+}
