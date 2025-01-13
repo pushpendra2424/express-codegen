@@ -26,10 +26,8 @@ const args = process.argv.slice(2);
 
 if (args.includes("-v") || args.includes("--version")) {
   console.log(chalk.green(`express-codegen Version: ${packageJson.version}`));
-  process.exit(0);
 } else if (args.includes("-h") || args.includes("--help")) {
   showHelp();
-  process.exit(0);
 } else if (args.includes("model")) {
   promptForModel();
 } else if (args.includes("controller")) {
@@ -38,7 +36,6 @@ if (args.includes("-v") || args.includes("--version")) {
   promptForRoutes();
 } else if (args.includes("app")) {
   createExpressApp();
-  process.exit(0);
 } else if (args.length > 0) {
   console.log(chalk.redBright(`\nError: Unknown command "${args.join(" ")}"`));
   console.log(

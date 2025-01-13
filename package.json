@@ -1,5 +1,5 @@
 {
-  "name": "express-codegen",
+  "name": "@node/express-codegen",
   "version": "0.0.1",
   "description": "Express command line interface with express-codegen tool",
   "type": "module",
@@ -26,6 +26,11 @@
     "express-cli",
     "express-codegen",
     "express-codegen-cli",
-    "express code generator"
-  ]
+    "express code generator",
+    "template"
+  ],
+  "bugs": {
+    "url": "https://github.com/pushpendra2424/express-codegen/issues"
+  },
+  "homepage": "https://github.com/pushpendra2424/express-codegen/#readme"
 }
